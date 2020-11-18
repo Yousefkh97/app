@@ -14,7 +14,11 @@ app.use(
   })
 );
 
+
+
 app.use(express.static("public"));
+
+//mongodb+srv://Yousef:5DITEwKxJ0hWLJPH@cluster0.rpovv.mongodb.net/test
 
 var secret = 'abcdefghujklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789!@#$%^&*()_+';
 module.exports = secret;
